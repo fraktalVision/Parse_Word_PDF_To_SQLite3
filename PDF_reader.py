@@ -84,5 +84,5 @@ class pdf_reader:
 
     def fix_page(self, num):
         self.page = self.pdffile.getPage(num).extractText()
-        self.page = self.page.replace(u'\2122', u"'")  # replaces tm character with the apostrophe.
+        self.page = self.page.replace(u'\u2122', u"'")  # replaces tm character with the apostrophe.
         self.page = self.page.encode('ascii', 'ignore')  # encodes to regular string from unicode
