@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="busted_db" uuid="263b6f26-c498-4ca5-8189-e988a3d39ba4">
+    <database-info product="SQLite" version="3.8.7" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="mentor" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="outID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="sex" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="moral" sqlType="TINYINT (1)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzEn"/>
+      <column name="point" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzEn"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="speech" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_mentor_1" columns="outID" ref-table="outcomes" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="newMentor" schema="" catalog="" type="VIEW">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="outID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="sex" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="moral" sqlType="TINYINT (1)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="point" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="speech" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="optOutcomes" schema="" catalog="" type="VIEW">
+      <column name="optID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="moral" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="option" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="outID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="outcome" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="score" sqlType="TINYINT (3)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="options" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="moral" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzEn"/>
+      <column name="sitID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_options_1" columns="sitID" ref-table="situations" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <exported-key name="#FAKE_outcomes_1" table="outcomes" schema="" catalog="" columns="optID"/>
+    </table>
+    <table name="outcomes" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="optID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="score" sqlType="TINYINT (3)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="special" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="true" jdbcType="12" def="J25vbmUn"/>
+      <column name="comic" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="true" jdbcType="12" def="J05VTEwn"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_outcomes_1" columns="optID" ref-table="options" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <exported-key name="#FAKE_mentor_1" table="mentor" schema="" catalog="" columns="outID"/>
+    </table>
+    <table name="sitOptions" schema="" catalog="" type="VIEW">
+      <column name="sitID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="category" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="situation" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="optID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="moral" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+      <column name="option" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="situations" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="sex" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="touchy" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="category" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="false" jdbcType="12" def="J2FjdGlvbic="/>
+      <column name="type" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="false" jdbcType="12" def="J21jJw=="/>
+      <primary-key columns="id"/>
+      <exported-key name="#FAKE_options_1" table="options" schema="" catalog="" columns="sitID"/>
+      <exported-key name="#FAKE_trueFalse_1" table="trueFalse" schema="" catalog="" columns="sitID"/>
+    </table>
+    <table name="trueFalse" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="moral" sqlType="TINYINT (4)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzEn"/>
+      <column name="sitID" sqlType="SMALLINT (5)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="answer" sqlType="TINYINT (1)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="text" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="score" sqlType="TINYINT (3)" precision="2000000000" scale="10" nullable="false" jdbcType="4" def="JzAn"/>
+      <column name="special" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="true" jdbcType="12" def="J25vbmUn"/>
+      <column name="comic" sqlType="VARCHAR (64)" precision="2000000000" scale="10" nullable="false" jdbcType="12" def="Jy0xLTEn"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_trueFalse_1" columns="sitID" ref-table="situations" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+  </data-source>
+</component>
