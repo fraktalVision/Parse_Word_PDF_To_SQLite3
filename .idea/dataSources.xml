@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="392203989">
+    <data-source source="LOCAL" name="busted_db" uuid="263b6f26-c498-4ca5-8189-e988a3d39ba4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\HP\PycharmProjects\Parse_Word_PDF_To_SQLite3\busted_db.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
