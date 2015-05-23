@@ -2,7 +2,7 @@ import PyPDF2 as pdf
 import re
 import unicodedata
 
-__author__ = 'HP'
+__author__ = 'Fred Jaworski'
 
 class pdf_reader:
 

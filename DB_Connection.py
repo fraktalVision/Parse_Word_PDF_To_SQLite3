@@ -1,6 +1,6 @@
 import sqlite3 as sql
 
-__author__ = 'HP'
+__author__ = 'Fred Jaworski'
 
 class DB_Connector:
 
@@ -26,4 +26,3 @@ class DB_Connector:
             entry[0] = id + 1  # hack
             entry = tuple(entry)  # hack
             self.cur.execute('INSERT INTO mentor VALUES(?,?,?,?,?,?,?)', entry)  # execution of SQL string
-

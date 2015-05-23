@@ -1,4 +1,5 @@
-__author__ = 'HP'
+__author__ = 'Fred Jaworski'
+
 from PDF_reader import *
 from DB_Connection import *
 
