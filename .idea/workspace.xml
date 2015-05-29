@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="754272ed-0306-4ffb-ad66-e46d6d272338" name="Default" comment="" />
+    <list default="true" id="754272ed-0306-4ffb-ad66-e46d6d272338" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Parse_Word_PDF_To_SQLite3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15,7 +17,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Parse_Word_PDF_To_SQLite3$PDF_reader.coverage" NAME="PDF_reader Coverage Results" MODIFIED="1430324404227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Parse_Word_PDF_To_SQLite3$main.coverage" NAME="main Coverage Results" MODIFIED="1431110848581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parse_Word_PDF_To_SQLite3$main.coverage" NAME="main Coverage Results" MODIFIED="1432924557234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,23 +43,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DB_Connection.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DB_Connection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DB_Connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="595">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.56666666" vertical-offset="1258" max-vertical-offset="1666">
+              <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
               <folding>
-                <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-                <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+                <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+                <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+                <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+                <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDF_reader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PDF_reader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PDF_reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6956522" vertical-offset="1190" max-vertical-offset="1581">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1598">
               <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -69,8 +75,8 @@
       <file leaf-file-name="busted_db" pinned="false" current-in-tab="false">
         <entry file="dbDummy://db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -79,10 +85,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
-                <element signature="e#18#42#0" expanded="true" />
+                <element signature="e#30#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,10 +103,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DB_Connection.py" />
-        <option value="db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/PDF_reader.py" />
+        <option value="$PROJECT_DIR$/DB_Connection.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/" />
       </list>
     </option>
   </component>
@@ -136,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,7 +163,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +453,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431110973236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added script to pull mentor speech data from the mentor table and put it into the mentor_speech table that is now used by the source code.">
+      <created>1432927392468</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1432927392468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -471,19 +483,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52411574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32636657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16868381" sideWeight="0.4992248" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279743" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1709531" sideWeight="0.4992248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25340393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24304539" sideWeight="0.5007752" order="2" side_tool="true" content_ui="tabs" />
@@ -492,7 +505,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -515,7 +527,8 @@
     </option>
     <MESSAGE value="Initial commit,&#10;Script pulls text from a pdf file, slices the text up and inserts the appropriate bits in to the database for Busted - It's Up To You" />
     <MESSAGE value="Updated fixPage function. Was erasing apostrophes, now no more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated fixPage function. Was erasing apostrophes, now no more." />
+    <MESSAGE value="Added script to pull mentor speech data from the mentor table and put it into the mentor_speech table that is now used by the source code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added script to pull mentor speech data from the mentor table and put it into the mentor_speech table that is now used by the source code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,8 +542,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="595">
           <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -558,7 +575,50 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_Connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="595">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDF_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,8 +628,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -597,7 +661,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,8 +671,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -628,7 +696,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,8 +706,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="510">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -659,7 +731,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,8 +741,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="425">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -690,7 +766,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,8 +776,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="425">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
@@ -721,7 +801,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,41 +813,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/">
+    <entry file="file://$PROJECT_DIR$/PDF_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB_Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1208" max-vertical-offset="1598">
+          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
           <folding>
-            <marker date="1431022514803" expanded="true" signature="463:491" placeholder="SELECT MAX(`..mentors..." />
-            <marker date="1431022514803" expanded="true" signature="836:876" placeholder="INSERT INTO ..." />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#30#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDF_reader.py">
+    <entry file="dbDummy://db-console:/7d0261ca/263b6f26-c498-4ca5-8189-e988a3d39ba4/">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6956522" vertical-offset="1190" max-vertical-offset="1581">
-          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="71" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_Connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56666666" vertical-offset="1258" max-vertical-offset="1666">
+          <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1432924539160" expanded="true" signature="551:579" placeholder="SELECT MAX(`..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="924:964" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="1060:1130" placeholder="SELECT `mora..mentor..." />
+            <marker date="1432924539160" expanded="true" signature="3257:3305" placeholder="INSERT INTO ..." />
+            <marker date="1432924539160" expanded="true" signature="3427:3454" placeholder="SELECT * FRO..mentor_speech..." />
           </folding>
         </state>
       </provider>
